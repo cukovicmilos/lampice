@@ -1,0 +1,21 @@
+# Build files
+build/
+*.elf
+*.bin
+*.hex
+
+# Arduino IDE
+*.eep
+*.lst
+*.sym
+*.lss
+*.o
+*.d
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp/dump files
+*.dump
+/tmp/
