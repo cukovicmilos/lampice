@@ -25,12 +25,12 @@ void setup() {
 
     digitalWrite(BUTTON_PIN, HIGH);
     digitalWrite(LED_BUILTIN_D1, LOW);  // LED upaljen
-    delay(300);
+    delay(600);
 
     Serial.println("         - LOW");
     digitalWrite(BUTTON_PIN, LOW);
     digitalWrite(LED_BUILTIN_D1, HIGH);  // LED ugašen
-    delay(800);
+    delay(1600);
   }
 
   Serial.println("=== Gotovo! ===");
